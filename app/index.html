@@ -1,0 +1,40 @@
+﻿<!DOCTYPE html>
+<html>
+   <head>
+      <meta charset="utf-8">
+      <title>Диаграммы Гиббса</title>
+	  <script language="javascript" type="text/javascript" src="js/jquery.js"></script>
+	  <script language="javascript" type="text/javascript" src="js/datatable.js"></script>
+  <script language="javascript" type="text/javascript" src="js/gibbs.js"></script>
+  <link rel="stylesheet" href="css/style.css">
+   </head>
+   <body>
+   
+   <div id="ui">
+   <h1>Построение диаграмм Гиббса</h1>
+	  <p>
+	  <button id="viev">Показать диаграмму</button>
+	  <button id="add">+</button>
+	  <button id="del">-</button>
+	  <button id="del_all">Удалить все</button>
+	  <button id="add_tab">Таблица</button>
+	  <button id="del_row">удалить строку</button>
+	  </p>
+	</div>
+	<div id="inp">
+		<p>Исходные данные</p>
+		<table id="datatable">
+		<tr id="datahead"><td>Номер точки</td></tr>
+		<tr id="data1"><td>Мольная доля компонента А</td></tr>
+		<tr id="data2"><td>Мольная доля компонента В</td></tr>
+		<tr id="data3"><td>Мольная доля компонента С</td></tr>
+		</table>
+	</div>
+	<div id="inp2">
+	<table id="datatable1"></table>
+	</div>
+	<div id="diagram">
+		<canvas width="800" height="800"></canvas>
+	</div>
+   </body>
+</html>
