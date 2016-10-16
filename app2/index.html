@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Диаграмма Гиббса</title>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="css/style1.css">
+	<script type="text/javascript" src="js/jquery.min.js"></script>
+	<script src="http://d3js.org/d3.v3.js"></script>
+	<script src="js/trinagle.js"></script>
+	<script src="js/load.js"></script>
+</head>
+<body>
+<div>
+	<h1>Диаграмма трехкомпонентной системы</h1>
+	<a href="http://nano.msu.ru/files/materials/VIII_2010/solid/lecture_td_04.pdf">Подробнее о диаграмме</a>
+	<input type="number" id="xa" value=100 class="dt">
+	<input type="number" id="xb" value=0 class="dt">
+	<input type="number" id="xc" value=0 class="dt">
+	<input type="button" id="addpoint" value="Добавить">
+	<input type="button" id="addpath" value="Добавить область из выделенных точек">
+</div>
+<div id="diagramm">
+</div>
+<div id="comment">
+
+</div>
+</body>
+</html>
